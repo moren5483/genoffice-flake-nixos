@@ -1,5 +1,5 @@
 let
-  version = "0.11.919";
+  version = "0.12.29";
 in
 {
   lib,
@@ -7,7 +7,7 @@ in
   fetchurl,
   appimageSrc ? fetchurl {
     url = "https://github.com/genspark-ai/genoffice/releases/download/v${version}/GenOffice-${version}.AppImage";
-    hash = "sha256-Imj58VS5BTl4cjS/l9gpjaGZxKOvOLoJkFTK3/dlCFA=";
+    hash = "sha256-jTUMZlRw3SJCxCxpyyudno/bgw50rhOXuwDgFzpZi40=";
   },
 }:
 
